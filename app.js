@@ -36,8 +36,6 @@ function userInputValues() {
             resultBtn.style.padding = paddingInPx.value;
             resultBtn.style.borderRadius = borderRadiusInPx.value;
             resultBtn.style.border = "none";
-
-            errorMessage.textContent = "";
 }
 
 applyBtn.addEventListener("click", userInputValues);
