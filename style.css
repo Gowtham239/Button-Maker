@@ -20,7 +20,7 @@ h1 {
 
 .button-maker-container {
     width: 800px;
-    height: 500px;
+    height: 550px;
     margin: 0 auto;
     background-color: white;
     display: flex;
@@ -72,14 +72,13 @@ input {
 
 
 .button-continer {
-    width: 100%;
-    margin: 0 auto;
+    width: 95%;
     text-align: end;
     /* border: 5px black solid; */
 }
 
 .apply-btn {
-    margin-right: 40px;
+    /* margin-right: 40px; */
     border: none;
     outline: none;
     width: 120px;
@@ -92,4 +91,9 @@ input {
 
 .output-btn {
     text-align: center;
+}
+
+.error-message {
+    text-align: center;
+    font-size: 18px;
 }
