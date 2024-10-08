@@ -97,3 +97,10 @@ input {
     text-align: center;
     font-size: 18px;
 }
+
+input:focus {
+    /* border-color: darkslateblue;
+    box-shadow: 0 0 0 2px #f08080; */
+    box-shadow: 0 0 5px 1px darkslateblue;
+    border: none;
+}
